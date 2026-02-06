@@ -8,7 +8,7 @@
 		<classes>
 			<!-- Updated to reference existing test class -->
 			<class name="com.netBanking.testCase.TC_LoginTest_01" />
-		<!-- <class name="com.netBanking.testCase.TC_LoginDDT_002" />  -->
+		 <class name="com.netBanking.testCase.TC_LoginDDT_002" /> 
 			<class name="com.netBanking.testCase.TC_AddNewCustomerTest_03" />
 		</classes>
 	</test> <!--
