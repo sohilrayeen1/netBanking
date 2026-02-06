@@ -1,0 +1,10 @@
+2026-02-07 00:06:02.343 [main] INFO  netBanking - **** Starting TC_LoginTest_01 ****
+2026-02-07 00:06:02.462 [main] INFO  netBanking - ****Entered Username ****
+2026-02-07 00:06:02.540 [main] INFO  netBanking - ****Entered password ****
+2026-02-07 00:06:05.372 [main] INFO  netBanking - **** Login test passed ****
+2026-02-07 00:06:16.327 [main] INFO  netBanking - **** Entered Username ****
+2026-02-07 00:06:16.390 [main] INFO  netBanking - **** Entered password ****
+2026-02-07 00:06:18.234 [main] INFO  netBanking - **** Logged in successfully ****
+2026-02-07 00:06:21.811 [main] INFO  netBanking - **** Providing customer details ****
+2026-02-07 00:06:32.873 [main] INFO  netBanking - **** Verifying new customer added ****
+2026-02-07 00:06:32.873 [main] INFO  netBanking - **** New Customer added successfully ****

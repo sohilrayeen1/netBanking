@@ -1,0 +1,7 @@
+com\netBanking\pageObject\AddCustomerPage.class
+com\netBanking\pageObject\LoginPage.class
+com\netBanking\utilities\XLUtils.class
+com\netBanking\testCase\BaseClass.class
+com\netBanking\testCase\TC_AddNewCustomerTest_03.class
+com\netBanking\testCase\TC_LoginDDT_002.class
+com\netBanking\testCase\TC_LoginTest_01.class

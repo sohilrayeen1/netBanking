@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <!-- Define a reusable property for the logs directory so paths are absolute and configurable -->
+  <Properties>
+    <!-- Allow overriding the log folder with -Dlog.dir; default is ${sys:user.dir}/logs (project working directory) -->
+    <Property name="LOG_DIR">${sys:log.dir:-${sys:user.dir}/logs}</Property>
+  </Properties>
+
+  <Appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+
+    <!-- createOnDemand ensures files/dirs are created when Log4j opens the file -->
+    <RollingFile name="RollingFile" fileName="${LOG_DIR}/netBanking.log"
+                 filePattern="${LOG_DIR}/netBanking-%d{yyyy-MM-dd}-%i.log.gz" createOnDemand="true">
+      <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+      <Policies>
+        <TimeBasedTriggeringPolicy />
+        <SizeBasedTriggeringPolicy size="10 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="30"/>
+    </RollingFile>
+  </Appenders>
+
+  <Loggers>
+    <!-- Application root logger -->
+    <Root level="INFO">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="RollingFile"/>
+    </Root>
+
+    <!-- Adjust package-specific levels if needed -->
+    <Logger name="com.netBanking" level="DEBUG" additivity="false">
+      <AppenderRef ref="Console"/>
+      <AppenderRef ref="RollingFile"/>
+    </Logger>
+  </Loggers>
+</Configuration>
+<!-- Tip: After you run your app/test in Eclipse the first time, refresh the project (F5) or enable "Refresh using native hooks or polling" in Preferences to see the created `logs` folder in Project Explorer. -->
