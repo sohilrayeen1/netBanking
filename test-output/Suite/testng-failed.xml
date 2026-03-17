@@ -4,6 +4,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.netBanking.testCase.TC_LoginTest_01">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.netBanking.testCase.TC_LoginTest_01 -->
       <class name="com.netBanking.testCase.TC_AddNewCustomerTest_03">
         <methods>
           <include name="setup"/>

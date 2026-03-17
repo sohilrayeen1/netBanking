@@ -22,7 +22,7 @@ public class TC_LoginTest_01 extends BaseClass {
 	@Story("User logs in with valid credentials")
 	@Severity(SeverityLevel.BLOCKER)
 
-	@Test
+	@Test(retryAnalyzer = Retry.class,groups= {"smoke"})
 	public void loginTest() {
 
 		logger.info("**** Starting TC_LoginTest_01 ****");

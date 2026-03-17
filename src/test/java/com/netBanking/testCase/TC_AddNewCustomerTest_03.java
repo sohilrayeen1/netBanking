@@ -7,7 +7,7 @@ import com.netBanking.pageObject.LoginPage;
 
 public class TC_AddNewCustomerTest_03 extends BaseClass {
 
-	@Test
+	@Test(groups= {"smoke"})
 	public void addNewCustomer() throws InterruptedException {
 
 		LoginPage lp = new LoginPage(driver);
