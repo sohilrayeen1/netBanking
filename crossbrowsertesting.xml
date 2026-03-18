@@ -3,6 +3,12 @@
 
 
 <suite name="Suite" parallel="tests" thread-count="3">
+
+<listeners>
+<listener class-name="com.netBanking.utilities.ExtentReportsManager" />
+</listeners>
+
+
   <test name="ChromeTest">
   <parameter name="browser" value="chrome" />
     <classes>

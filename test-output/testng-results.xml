@@ -2,19 +2,20 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-07T02:11:29 IST" name="Suite" finished-at="2026-03-07T02:12:53 IST" duration-ms="84136">
+  <suite started-at="2026-03-19T01:47:50 IST" name="Suite" finished-at="2026-03-19T01:49:16 IST" duration-ms="85946">
     <groups>
       <group name="regression">
-        <method signature="TC_LoginDDT_002.LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@41709512]" name="LoginDDT" class="com.netBanking.testCase.TC_LoginDDT_002"/>
+        <method signature="TC_LoginDDT_002.LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@63787180]" name="LoginDDT" class="com.netBanking.testCase.TC_LoginDDT_002"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TC_AddNewCustomerTest_03.addNewCustomer()[pri:0, instance:com.netBanking.testCase.TC_AddNewCustomerTest_03@42039326]" name="addNewCustomer" class="com.netBanking.testCase.TC_AddNewCustomerTest_03"/>
-        <method signature="TC_LoginTest_01.loginTest()[pri:0, instance:com.netBanking.testCase.TC_LoginTest_01@6ed3f258]" name="loginTest" class="com.netBanking.testCase.TC_LoginTest_01"/>
+        <method signature="TC_AddNewCustomerTest_03.addNewCustomer()[pri:0, instance:com.netBanking.testCase.TC_AddNewCustomerTest_03@7d1cfb8b]" name="addNewCustomer" class="com.netBanking.testCase.TC_AddNewCustomerTest_03"/>
+        <method signature="TC_LoginDDT_002.LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@63787180]" name="LoginDDT" class="com.netBanking.testCase.TC_LoginDDT_002"/>
+        <method signature="TC_LoginTest_01.loginTest()[pri:0, instance:com.netBanking.testCase.TC_LoginTest_01@41709512]" name="loginTest" class="com.netBanking.testCase.TC_LoginTest_01"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-03-07T02:11:29 IST" name="Test" finished-at="2026-03-07T02:12:53 IST" duration-ms="84136">
+    <test started-at="2026-03-19T01:47:50 IST" name="Test" finished-at="2026-03-19T01:49:16 IST" duration-ms="85946">
       <class name="com.netBanking.testCase.TC_LoginDDT_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@41709512]" started-at="2026-03-07T02:11:36 IST" name="setup" finished-at="2026-03-07T02:11:38 IST" duration-ms="2604" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@63787180]" started-at="2026-03-19T01:47:57 IST" name="setup" finished-at="2026-03-19T01:48:00 IST" duration-ms="2843" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -25,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@41709512]" started-at="2026-03-07T02:11:39 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-07T02:11:47 IST" duration-ms="7801" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@63787180]" started-at="2026-03-19T01:48:01 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-19T01:48:09 IST" duration-ms="7607" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@41709512]" started-at="2026-03-07T02:11:47 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-07T02:11:54 IST" duration-ms="7123" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@63787180]" started-at="2026-03-19T01:48:09 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-19T01:48:16 IST" duration-ms="7302" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@41709512]" started-at="2026-03-07T02:11:54 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-07T02:12:04 IST" duration-ms="9761" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@63787180]" started-at="2026-03-19T01:48:16 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-19T01:48:25 IST" duration-ms="8646" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -73,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@41709512]" started-at="2026-03-07T02:12:04 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-07T02:12:11 IST" duration-ms="7142" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@63787180]" started-at="2026-03-19T01:48:25 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-19T01:48:32 IST" duration-ms="7147" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,7 +90,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@41709512]" started-at="2026-03-07T02:12:11 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-07T02:12:18 IST" duration-ms="7189" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@63787180]" started-at="2026-03-19T01:48:32 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-19T01:48:39 IST" duration-ms="7134" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@41709512]" started-at="2026-03-07T02:12:18 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-07T02:12:28 IST" duration-ms="9281" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@63787180]" started-at="2026-03-19T01:48:39 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-19T01:48:48 IST" duration-ms="8713" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -121,7 +122,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@41709512]" started-at="2026-03-07T02:12:28 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-07T02:12:35 IST" duration-ms="7146" status="PASS">
+        <test-method signature="LoginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@63787180]" started-at="2026-03-19T01:48:48 IST" name="LoginDDT" data-provider="LoginData" finished-at="2026-03-19T01:48:55 IST" duration-ms="7125" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,13 +138,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@41709512]" started-at="2026-03-07T02:12:35 IST" name="tearDown" finished-at="2026-03-07T02:12:35 IST" duration-ms="297" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.netBanking.testCase.TC_LoginDDT_002@63787180]" started-at="2026-03-19T01:48:55 IST" name="tearDown" finished-at="2026-03-19T01:48:55 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.netBanking.testCase.TC_LoginDDT_002 -->
       <class name="com.netBanking.testCase.TC_AddNewCustomerTest_03">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_AddNewCustomerTest_03@42039326]" started-at="2026-03-07T02:12:35 IST" name="setup" finished-at="2026-03-07T02:12:38 IST" duration-ms="3258" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_AddNewCustomerTest_03@7d1cfb8b]" started-at="2026-03-19T01:48:55 IST" name="setup" finished-at="2026-03-19T01:49:02 IST" duration-ms="6608" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -154,17 +155,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.netBanking.testCase.TC_AddNewCustomerTest_03@42039326]" started-at="2026-03-07T02:12:38 IST" name="addNewCustomer" finished-at="2026-03-07T02:12:53 IST" duration-ms="14067" status="PASS">
+        <test-method signature="addNewCustomer()[pri:0, instance:com.netBanking.testCase.TC_AddNewCustomerTest_03@7d1cfb8b]" started-at="2026-03-19T01:49:02 IST" name="addNewCustomer" finished-at="2026-03-19T01:49:16 IST" duration-ms="14130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.netBanking.testCase.TC_AddNewCustomerTest_03@42039326]" started-at="2026-03-07T02:12:53 IST" name="tearDown" finished-at="2026-03-07T02:12:53 IST" duration-ms="240" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.netBanking.testCase.TC_AddNewCustomerTest_03@7d1cfb8b]" started-at="2026-03-19T01:49:16 IST" name="tearDown" finished-at="2026-03-19T01:49:16 IST" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.netBanking.testCase.TC_AddNewCustomerTest_03 -->
       <class name="com.netBanking.testCase.TC_LoginTest_01">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginTest_01@6ed3f258]" started-at="2026-03-07T02:11:29 IST" name="setup" finished-at="2026-03-07T02:11:34 IST" duration-ms="5085" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.netBanking.testCase.TC_LoginTest_01@41709512]" started-at="2026-03-19T01:47:50 IST" name="setup" finished-at="2026-03-19T01:47:56 IST" duration-ms="5257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,11 +176,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.netBanking.testCase.TC_LoginTest_01@6ed3f258]" started-at="2026-03-07T02:11:34 IST" name="loginTest" finished-at="2026-03-07T02:11:35 IST" duration-ms="1403" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.netBanking.testCase.TC_LoginTest_01@41709512]" started-at="2026-03-19T01:47:56 IST" name="loginTest" finished-at="2026-03-19T01:47:57 IST" duration-ms="1292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.netBanking.testCase.TC_LoginTest_01@6ed3f258]" started-at="2026-03-07T02:11:35 IST" name="tearDown" finished-at="2026-03-07T02:11:36 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.netBanking.testCase.TC_LoginTest_01@41709512]" started-at="2026-03-19T01:47:57 IST" name="tearDown" finished-at="2026-03-19T01:47:57 IST" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

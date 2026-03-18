@@ -1,61 +1,31 @@
-2026-03-07 02:11:34.323 [main] INFO  netBanking - **** Starting TC_LoginTest_01 ****
-2026-03-07 02:11:34.539 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:11:34.674 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:11:35.672 [main] INFO  netBanking - **** Login test passed ****
-2026-03-07 02:11:42.027 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:11:44.128 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:11:47.719 [main] WARN  netBanking - **** Login failed ****
-2026-03-07 02:11:49.827 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:11:51.940 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:11:54.855 [main] WARN  netBanking - **** Login failed ****
-2026-03-07 02:11:56.983 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:11:59.105 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:12:01.447 [main] INFO  netBanking - **** Login passed ****
-2026-03-07 02:12:06.747 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:12:08.838 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:12:11.768 [main] WARN  netBanking - **** Login failed ****
-2026-03-07 02:12:13.888 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:12:15.996 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:12:18.963 [main] WARN  netBanking - **** Login failed ****
-2026-03-07 02:12:21.117 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:12:23.240 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:12:25.874 [main] INFO  netBanking - **** Login passed ****
-2026-03-07 02:12:30.370 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:12:32.475 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:12:35.402 [main] WARN  netBanking - **** Login failed ****
-2026-03-07 02:12:39.119 [main] INFO  netBanking - **** Entered Username ****
-2026-03-07 02:12:39.256 [main] INFO  netBanking - **** Entered password ****
-2026-03-07 02:12:39.555 [main] INFO  netBanking - **** Logged in successfully ****
-2026-03-07 02:12:43.093 [main] INFO  netBanking - **** Providing customer details ****
-2026-03-07 02:12:53.028 [main] INFO  netBanking - **** Verifying new customer added ****
-2026-03-07 02:12:53.029 [main] INFO  netBanking - **** New Customer added successfully ****
-2026-03-07 02:23:06.929 [main] INFO  netBanking - **** Starting TC_LoginTest_01 ****
-2026-03-07 02:23:07.119 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:23:07.211 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:23:08.014 [main] INFO  netBanking - **** Login test passed ****
-2026-03-07 02:23:15.440 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:23:17.635 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:23:20.668 [main] WARN  netBanking - **** Login failed ****
-2026-03-07 02:23:22.792 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:23:24.890 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:23:28.276 [main] WARN  netBanking - **** Login failed ****
-2026-03-07 02:23:30.386 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:23:32.482 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:23:34.837 [main] INFO  netBanking - **** Login passed ****
-2026-03-07 02:23:39.278 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:23:41.437 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:23:44.335 [main] WARN  netBanking - **** Login failed ****
-2026-03-07 02:23:46.450 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:23:48.536 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:23:51.592 [main] WARN  netBanking - **** Login failed ****
-2026-03-07 02:23:53.740 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:23:55.953 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:23:58.570 [main] INFO  netBanking - **** Login passed ****
-2026-03-07 02:24:03.055 [main] INFO  netBanking - ****Entered Username ****
-2026-03-07 02:24:05.244 [main] INFO  netBanking - ****Entered password ****
-2026-03-07 02:24:08.290 [main] WARN  netBanking - **** Login failed ****
-2026-03-07 02:24:12.144 [main] INFO  netBanking - **** Entered Username ****
-2026-03-07 02:24:12.318 [main] INFO  netBanking - **** Entered password ****
-2026-03-07 02:24:13.439 [main] INFO  netBanking - **** Logged in successfully ****
-2026-03-07 02:24:16.993 [main] INFO  netBanking - **** Providing customer details ****
-2026-03-07 02:24:26.885 [main] INFO  netBanking - **** Verifying new customer added ****
+2026-03-19 01:47:56.210 [main] INFO  netBanking - **** Starting TC_LoginTest_01 ****
+2026-03-19 01:47:56.415 [main] INFO  netBanking - ****Entered Username ****
+2026-03-19 01:47:56.499 [main] INFO  netBanking - ****Entered password ****
+2026-03-19 01:47:57.422 [main] INFO  netBanking - **** Login test passed ****
+2026-03-19 01:48:03.830 [main] INFO  netBanking - ****Entered Username ****
+2026-03-19 01:48:05.950 [main] INFO  netBanking - ****Entered password ****
+2026-03-19 01:48:09.309 [main] WARN  netBanking - **** Login failed ****
+2026-03-19 01:48:11.407 [main] INFO  netBanking - ****Entered Username ****
+2026-03-19 01:48:13.523 [main] INFO  netBanking - ****Entered password ****
+2026-03-19 01:48:16.619 [main] WARN  netBanking - **** Login failed ****
+2026-03-19 01:48:18.740 [main] INFO  netBanking - ****Entered Username ****
+2026-03-19 01:48:20.853 [main] INFO  netBanking - ****Entered password ****
+2026-03-19 01:48:22.975 [main] INFO  netBanking - **** Login passed ****
+2026-03-19 01:48:27.396 [main] INFO  netBanking - ****Entered Username ****
+2026-03-19 01:48:29.523 [main] INFO  netBanking - ****Entered password ****
+2026-03-19 01:48:32.422 [main] WARN  netBanking - **** Login failed ****
+2026-03-19 01:48:34.554 [main] INFO  netBanking - ****Entered Username ****
+2026-03-19 01:48:36.643 [main] INFO  netBanking - ****Entered password ****
+2026-03-19 01:48:39.564 [main] WARN  netBanking - **** Login failed ****
+2026-03-19 01:48:41.695 [main] INFO  netBanking - ****Entered Username ****
+2026-03-19 01:48:43.814 [main] INFO  netBanking - ****Entered password ****
+2026-03-19 01:48:45.965 [main] INFO  netBanking - **** Login passed ****
+2026-03-19 01:48:50.402 [main] INFO  netBanking - ****Entered Username ****
+2026-03-19 01:48:52.510 [main] INFO  netBanking - ****Entered password ****
+2026-03-19 01:48:55.417 [main] WARN  netBanking - **** Login failed ****
+2026-03-19 01:49:02.394 [main] INFO  netBanking - **** Entered Username ****
+2026-03-19 01:49:02.467 [main] INFO  netBanking - **** Entered password ****
+2026-03-19 01:49:02.577 [main] INFO  netBanking - **** Logged in successfully ****
+2026-03-19 01:49:05.988 [main] INFO  netBanking - **** Providing customer details ****
+2026-03-19 01:49:16.396 [main] INFO  netBanking - **** Verifying new customer added ****
+2026-03-19 01:49:16.396 [main] INFO  netBanking - **** New Customer added successfully ****

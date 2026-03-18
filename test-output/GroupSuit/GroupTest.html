@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>GroupTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/5</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/9/5</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Feb 12 00:24:39 IST 2026</td>
+<td>Started on:</td><td>Thu Mar 19 01:45:39 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (215 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1711 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>smoke </td>
 </tr><tr>
@@ -80,8 +80,12 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.NullPointerException
 	at com.netBanking.testCase.TC_AddNewCustomerTest_03.addNewCustomer(TC_AddNewCustomerTest_03.java:14)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace15892131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace15892131'><pre>java.lang.NullPointerException
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1173453296", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1173453296'><pre>java.lang.NullPointerException
 	at com.netBanking.testCase.TC_AddNewCustomerTest_03.addNewCustomer(TC_AddNewCustomerTest_03.java:14)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -99,28 +103,116 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
 <td>0</td>
-<td>com.netBanking.testCase.TC_AddNewCustomerTest_03@1b955cac</td></tr>
+<td>com.netBanking.testCase.TC_AddNewCustomerTest_03@73194df</td></tr>
+<tr>
+<td title='com.netBanking.testCase.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.netBanking.testCase.TC_LoginDDT_002<br>Parameters: mngr655103, UnybUpy</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace720984906", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace720984906'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>com.netBanking.testCase.TC_LoginDDT_002@32a68f4f</td></tr>
+<tr>
+<td title='com.netBanking.testCase.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.netBanking.testCase.TC_LoginDDT_002<br>Parameters: 32323ed, gYrepaj</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1355454505", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1355454505'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>com.netBanking.testCase.TC_LoginDDT_002@32a68f4f</td></tr>
 <tr>
 <td title='com.netBanking.testCase.TC_LoginTest_01.loginTest()'><b>loginTest</b><br>Test class: com.netBanking.testCase.TC_LoginTest_01</td>
 <td><div><pre>java.lang.NullPointerException
 	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1171255580", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1171255580'><pre>java.lang.NullPointerException
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace263065178", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace263065178'><pre>java.lang.NullPointerException
 	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -138,21 +230,240 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
 <td>0</td>
-<td>com.netBanking.testCase.TC_LoginTest_01@4b79ac84</td></tr>
+<td>com.netBanking.testCase.TC_LoginTest_01@65a15628</td></tr>
+<tr>
+<td title='com.netBanking.testCase.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.netBanking.testCase.TC_LoginDDT_002<br>Parameters: mngr655103, UnybUpy</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1100366611", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1100366611'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>com.netBanking.testCase.TC_LoginDDT_002@32a68f4f</td></tr>
+<tr>
+<td title='com.netBanking.testCase.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.netBanking.testCase.TC_LoginDDT_002<br>Parameters: wqwqdqw, gYrepaj</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1468562687", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1468562687'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>com.netBanking.testCase.TC_LoginDDT_002@32a68f4f</td></tr>
+<tr>
+<td title='com.netBanking.testCase.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.netBanking.testCase.TC_LoginDDT_002<br>Parameters: dsdsdw233, dwdw</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace753155039", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace753155039'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>com.netBanking.testCase.TC_LoginDDT_002@32a68f4f</td></tr>
+<tr>
+<td title='com.netBanking.testCase.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.netBanking.testCase.TC_LoginDDT_002<br>Parameters: dsdsdw232, dqwdwqd</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace523055073", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace523055073'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>com.netBanking.testCase.TC_LoginDDT_002@32a68f4f</td></tr>
+<tr>
+<td title='com.netBanking.testCase.TC_LoginDDT_002.LoginDDT()'><b>LoginDDT</b><br>Test class: com.netBanking.testCase.TC_LoginDDT_002<br>Parameters: mngr652899, ddaadsad</td>
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace879542867", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace879542867'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy39.sendKeys(Unknown Source)
+	at com.netBanking.pageObject.LoginPage.setUserName(LoginPage.java:33)
+	at com.netBanking.testCase.TC_LoginDDT_002.LoginDDT(TC_LoginDDT_002.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>com.netBanking.testCase.TC_LoginDDT_002@32a68f4f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -167,8 +478,12 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.NullPointerException
 	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace300604602", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace300604602'><pre>java.lang.NullPointerException
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1004522651", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1004522651'><pre>java.lang.NullPointerException
 	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -186,28 +501,26 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
 <td>0</td>
-<td>com.netBanking.testCase.TC_LoginTest_01@4b79ac84</td></tr>
+<td>com.netBanking.testCase.TC_LoginTest_01@65a15628</td></tr>
 <tr>
 <td title='com.netBanking.testCase.TC_LoginTest_01.loginTest()'><b>loginTest</b><br>Test class: com.netBanking.testCase.TC_LoginTest_01</td>
 <td><div><pre>java.lang.NullPointerException
 	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace606775513", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace606775513'><pre>java.lang.NullPointerException
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1637726347", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1637726347'><pre>java.lang.NullPointerException
 	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -225,28 +538,26 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
 <td>0</td>
-<td>com.netBanking.testCase.TC_LoginTest_01@4b79ac84</td></tr>
+<td>com.netBanking.testCase.TC_LoginTest_01@65a15628</td></tr>
 <tr>
 <td title='com.netBanking.testCase.TC_LoginTest_01.loginTest()'><b>loginTest</b><br>Test class: com.netBanking.testCase.TC_LoginTest_01</td>
 <td><div><pre>java.lang.NullPointerException
 	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1628551735", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1628551735'><pre>java.lang.NullPointerException
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1183405765", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1183405765'><pre>java.lang.NullPointerException
 	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -264,28 +575,63 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
 <td>0</td>
-<td>com.netBanking.testCase.TC_LoginTest_01@4b79ac84</td></tr>
+<td>com.netBanking.testCase.TC_LoginTest_01@65a15628</td></tr>
 <tr>
 <td title='com.netBanking.testCase.TC_LoginTest_01.loginTest()'><b>loginTest</b><br>Test class: com.netBanking.testCase.TC_LoginTest_01</td>
 <td><div><pre>java.lang.NullPointerException
 	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace999647352", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace999647352'><pre>java.lang.NullPointerException
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace416976598", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace416976598'><pre>java.lang.NullPointerException
+	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>0</td>
+<td>com.netBanking.testCase.TC_LoginTest_01@65a15628</td></tr>
+<tr>
+<td title='com.netBanking.testCase.TC_LoginTest_01.loginTest()'><b>loginTest</b><br>Test class: com.netBanking.testCase.TC_LoginTest_01</td>
+<td><div><pre>java.lang.NullPointerException
+	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1127088368", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1127088368'><pre>java.lang.NullPointerException
 	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -303,60 +649,15 @@ function toggleAllBoxes() {
 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 </pre></div></td>
 <td>0</td>
-<td>com.netBanking.testCase.TC_LoginTest_01@4b79ac84</td></tr>
-<tr>
-<td title='com.netBanking.testCase.TC_LoginTest_01.loginTest()'><b>loginTest</b><br>Test class: com.netBanking.testCase.TC_LoginTest_01</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace935160003", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace935160003'><pre>java.lang.NullPointerException
-	at com.netBanking.testCase.TC_LoginTest_01.loginTest(TC_LoginTest_01.java:28)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.netBanking.testCase.TC_LoginTest_01@4b79ac84</td></tr>
+<td>com.netBanking.testCase.TC_LoginTest_01@65a15628</td></tr>
 </table><p>
 </body>
 </html>
