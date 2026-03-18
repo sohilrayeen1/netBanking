@@ -3,8 +3,13 @@
 
 
 <suite name="Suite">
+<listeners>
+<listener class-name="com.netBanking.utilities.ExtentReportsManager" />
+</listeners>
+
 	<test name="Test">
 		<parameter name="browser" value="chrome" />
+		<parameter name="os" value="windows" />
 		<classes>
 			<!-- Updated to reference existing test class -->
 			<class name="com.netBanking.testCase.TC_LoginTest_01" />
@@ -13,5 +18,4 @@
 		</classes>
 	</test> <!--
 	Test -->
-</suite> <!--
-Suite -->
+</suite>

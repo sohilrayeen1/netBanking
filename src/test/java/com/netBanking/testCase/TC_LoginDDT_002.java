@@ -13,7 +13,7 @@ import com.netBanking.utilities.XLUtils;
 
 public class TC_LoginDDT_002 extends BaseClass {
 
-	@Test(dataProvider = "LoginData",groups= {"regression"})
+	@Test(dataProvider = "LoginData",groups= {"regression","smoke"})
 	public void LoginDDT(String user, String pwd) throws InterruptedException {
 		// Implementation for data-driven login test will go here
 

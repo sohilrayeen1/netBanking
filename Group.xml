@@ -3,6 +3,12 @@
 
 
 <suite name="GroupSuit" parallel="tests" thread-count="5">
+
+	<listeners>
+		<listener class-name="com.netBanking.utilities.ExtentReportsManager" />
+	</listeners>
+
+
 	<test name="GroupTest">
 		<groups>
 			<run>
